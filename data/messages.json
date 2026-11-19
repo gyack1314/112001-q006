@@ -1,5 +1,11 @@
 [
-  {"vendor": "alpha", "schema_version": "1", "asset": "A-01", "capacity": 20, "unit": "Gbps"},
-  {"vendor": "alpha", "schema_version": "2", "asset": "A-01", "capacity": {"down": 15, "up": 5}, "unit": "Gbps", "shared_resource": "R-9"},
-  {"vendor": "beta", "schema_version": "2", "asset": "B-03", "capacity": {"down": 8, "up": 2}, "unit": "Gbps", "shared_resource": "R-9"}
+  {"msg_type": "asset_report", "schema_version": "1", "report_id": "alpha-20260101-01", "reported_at": "2026-01-01T08:00:00Z",
+   "valid_from": "2026-01-01", "valid_to": "2026-02-28",
+   "vendor": "alpha", "asset": "A-01", "standard": "NR", "capacity": 20, "unit": "Gbps"},
+  {"msg_type": "asset_report", "schema_version": "2", "report_id": "alpha-20260301-02", "reported_at": "2026-03-01T09:00:00Z",
+   "valid_from": "2026-03-01", "valid_to": null,
+   "vendor": "alpha", "asset": "A-01", "standard": "5G", "capacity": {"down": 15, "up": 5}, "unit": "Gbps", "shared_resource": "R-9"},
+  {"msg_type": "asset_report", "schema_version": "2", "report_id": "beta-20260301-01", "reported_at": "2026-03-01T09:05:00Z",
+   "valid_from": "2026-03-01", "valid_to": null,
+   "vendor": "beta", "asset": "B-03", "standard": "5G", "capacity": {"down": 8, "up": 2}, "unit": "Gbps", "shared_resource": "R-9"}
 ]

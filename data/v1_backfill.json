@@ -1,0 +1,17 @@
+[
+  {"msg_type": "asset_report", "schema_version": "1", "report_id": "gamma-20260701-01", "reported_at": "2026-07-01T02:00:00Z",
+   "valid_from": "2026-01-01", "valid_to": "2026-06-30",
+   "vendor": "gamma", "asset": "A-02", "standard": "GSM", "capacity": 100, "unit": "Erlang"},
+  {"msg_type": "asset_report", "schema_version": "1", "report_id": "gamma-20260701-02", "reported_at": "2026-07-01T02:00:00Z",
+   "valid_from": "2026-01-01", "valid_to": "2026-12-31",
+   "vendor": "gamma", "asset": "A-03", "standard": "LTE", "capacity": 50, "unit": "Mbps"},
+  {"msg_type": "asset_report", "schema_version": "1", "report_id": "gamma-20260701-03", "reported_at": "2026-07-01T02:00:00Z",
+   "valid_from": "2026-01-01", "valid_to": null,
+   "vendor": "gamma", "asset": "A-04", "standard": "NB-IoT", "capacity": 30, "unit": "Mbps"},
+  {"msg_type": "asset_report", "schema_version": "1", "report_id": "gamma-20260701-04", "reported_at": "2026-07-01T02:00:00Z",
+   "valid_from": "2026-01-01", "valid_to": null,
+   "vendor": "gamma", "asset": "A-05", "standard": "LTE", "unit": "Mbps"},
+  {"msg_type": "asset_report", "schema_version": "1", "report_id": "gamma-20260701-05", "reported_at": "2026-07-01T02:00:00Z",
+   "valid_from": "2026-05-01", "valid_to": "2026-03-01",
+   "vendor": "gamma", "asset": "A-06", "standard": "LTE", "capacity": 10, "unit": "Mbps"}
+]

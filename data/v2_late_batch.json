@@ -1,0 +1,9 @@
+[
+  {"msg_type": "shared_resource_report", "schema_version": "2", "report_id": "delta-20260702-01", "reported_at": "2026-07-02T03:00:00Z",
+   "valid_from": "2026-01-01", "valid_to": null,
+   "resource_id": "R-LATE", "owner_scope": {"scope_type": "site", "scope_id": "SITE-3"},
+   "standard": "5G", "capacity": {"down": 800, "up": 200}, "unit": "Mbps"},
+  {"msg_type": "asset_report", "schema_version": "1", "report_id": "gamma-20260702-01", "reported_at": "2026-07-02T03:00:00Z",
+   "valid_from": "2026-01-01", "valid_to": "2026-12-31",
+   "vendor": "gamma", "asset": "A-03", "standard": "LTE", "capacity": 50, "unit": "Mbps"}
+]

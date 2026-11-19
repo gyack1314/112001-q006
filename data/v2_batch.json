@@ -1,0 +1,22 @@
+[
+  {"msg_type": "shared_resource_report", "schema_version": "2", "report_id": "delta-20260301-01", "reported_at": "2026-03-01T10:00:00Z",
+   "valid_from": "2026-03-01", "valid_to": null,
+   "resource_id": "R-9", "owner_scope": {"scope_type": "site", "scope_id": "SITE-1"},
+   "standard": "5G", "capacity": {"down": 40, "up": 10}, "unit": "Gbps"},
+  {"msg_type": "shared_resource_report", "schema_version": "2", "report_id": "delta-20260301-02", "reported_at": "2026-03-01T10:00:00Z",
+   "valid_from": "2026-01-01", "valid_to": null,
+   "resource_id": "R-10", "owner_scope": {"scope_type": "site", "scope_id": "SITE-2"},
+   "capacity": {"down": 500, "up": 100}, "unit": "Mbps"},
+  {"msg_type": "asset_report", "schema_version": "2", "report_id": "delta-20260301-03", "reported_at": "2026-03-01T10:05:00Z",
+   "valid_from": "2026-01-01", "valid_to": null,
+   "vendor": "delta", "asset": "C-01", "standard": "4G", "capacity": {"down": 80, "up": 20}, "unit": "Mbps"},
+  {"msg_type": "asset_report", "schema_version": "2", "report_id": "delta-20260301-04", "reported_at": "2026-03-01T10:05:00Z",
+   "valid_from": "2026-01-01", "valid_to": null,
+   "vendor": "delta", "asset": "C-02", "standard": "5G-ADVANCED", "capacity": {"down": 400, "up": 100}, "unit": "Mbps"},
+  {"msg_type": "asset_report", "schema_version": "2", "report_id": "delta-20260301-05", "reported_at": "2026-03-01T10:05:00Z",
+   "valid_from": "2026-01-01", "valid_to": null,
+   "vendor": "delta", "asset": "D-01", "standard": "5G", "capacity": {"down": 50, "up": 10}, "unit": "Mbps", "shared_resource": "R-LATE"},
+  {"msg_type": "asset_report", "schema_version": "2", "report_id": "delta-20260301-06", "reported_at": "2026-03-01T10:05:00Z",
+   "valid_from": "2026-01-01", "valid_to": null,
+   "vendor": "delta", "asset": "D-02", "standard": "5G", "capacity": {"down": 300}, "unit": "Mbps"}
+]

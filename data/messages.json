@@ -1,0 +1,5 @@
+[
+  {"vendor": "alpha", "schema_version": "1", "asset": "A-01", "capacity": 20, "unit": "Gbps"},
+  {"vendor": "alpha", "schema_version": "2", "asset": "A-01", "capacity": {"down": 15, "up": 5}, "unit": "Gbps", "shared_resource": "R-9"},
+  {"vendor": "beta", "schema_version": "2", "asset": "B-03", "capacity": {"down": 8, "up": 2}, "unit": "Gbps", "shared_resource": "R-9"}
+]
